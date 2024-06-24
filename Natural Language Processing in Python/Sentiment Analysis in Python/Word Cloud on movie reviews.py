@@ -2,7 +2,7 @@
 from wordcloud import WordCloud
 
 # Create and generate a word cloud image 
-my_cloud = WordCloud(background='white', stopwords=my_stopwords).generate(descriptions)
+my_cloud = WordCloud(background_color='white', stopwords=my_stopwords).generate(descriptions)
 
 # Display the generated wordcloud image
 plt.imshow(my_cloud, interpolation='bilinear') 
